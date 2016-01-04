@@ -1,0 +1,64 @@
+body {
+  background-color: #F6F7F8;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #9197A3; }
+  body h1, body h2, body h3, body h4 {
+    color: #141823; }
+
+.profile {
+  margin-top: 80px; }
+  .profile .photo {
+    text-align: center;
+    padding: 15px;
+    overflow: hidden; }
+    .profile .photo img {
+      width: 190px;
+      border-radius: 100%;
+      border: 1px solid #9197A3;
+      cursor: pointer; }
+  .profile .description {
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px; }
+    .profile .description .name {
+      font-weight: bold;
+      color: #141823;
+      font-size: 27px; }
+    .profile .description p {
+      margin-top: 5px;
+      font-size: 16px; }
+      .profile .description p .job {
+        color: #5994FC; }
+  .profile .social-network {
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px; }
+    .profile .social-network .network-icon {
+      text-decoration: none;
+      display: inline-block;
+      margin-left: 2px;
+      margin-right: 2px; }
+      .profile .social-network .network-icon .github {
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        color: #000 !important; }
+        .profile .social-network .network-icon .github:hover, .profile .social-network .network-icon .github:active {
+          color: #262626 !important; }
+      .profile .social-network .network-icon .linkedin {
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        color: #0274B3 !important; }
+        .profile .social-network .network-icon .linkedin:hover, .profile .social-network .network-icon .linkedin:active {
+          color: #014367 !important; }
+      .profile .social-network .network-icon .twitter {
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        color: #5EA9DD !important; }
+        .profile .social-network .network-icon .twitter:hover, .profile .social-network .network-icon .twitter:active {
+          color: #2a85c5 !important; }
