@@ -27,6 +27,9 @@ body {
     .profile .description p {
       margin-top: 5px;
       font-size: 16px; }
+      .profile .description p .email {
+        color: #5994FC !important;
+        text-decoration: none; }
       .profile .description p .job {
         color: #5994FC; }
   .profile .social-network {
