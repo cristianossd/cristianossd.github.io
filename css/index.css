@@ -26,12 +26,15 @@ body {
       font-size: 27px; }
     .profile .description p {
       margin-top: 5px;
+      margin-bottom: 0px;
       font-size: 16px; }
-      .profile .description p .email {
-        color: #5994FC !important;
-        text-decoration: none; }
       .profile .description p .job {
         color: #5994FC; }
+    .profile .description .email {
+      display: inline-block;
+      margin-bottom: 15px;
+      color: #5994FC !important;
+      text-decoration: none; }
   .profile .social-network {
     text-align: center;
     padding-right: 10px;
