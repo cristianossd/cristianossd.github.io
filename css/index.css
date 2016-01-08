@@ -60,6 +60,14 @@ body {
         color: #0274B3 !important; }
         .profile .social-network .network-icon .linkedin:hover, .profile .social-network .network-icon .linkedin:active {
           color: #014367 !important; }
+      .profile .social-network .network-icon .facebook {
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        color: #3B5998 !important; }
+        .profile .social-network .network-icon .facebook:hover, .profile .social-network .network-icon .facebook:active {
+          color: #263961 !important; }
       .profile .social-network .network-icon .twitter {
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
@@ -68,3 +76,11 @@ body {
         color: #5EA9DD !important; }
         .profile .social-network .network-icon .twitter:hover, .profile .social-network .network-icon .twitter:active {
           color: #2a85c5 !important; }
+      .profile .social-network .network-icon .google-plus {
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        color: #DC4A38 !important; }
+        .profile .social-network .network-icon .google-plus:hover, .profile .social-network .network-icon .google-plus:active {
+          color: #aa2d1e !important; }

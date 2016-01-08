@@ -62,10 +62,24 @@
             </span>
           </a>
 
+          <a itemprop="sameAs" id="facebookIcon" href="https://fb.com/cristianossd" class="network-icon" target="_blank">
+            <span class="fa-stack fa-lg facebook">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+
           <a itemprop="sameAs" id="twitterIcon" href="https://twitter.com/cristianossd1" class="network-icon" target="_blank">
             <span class="fa-stack fa-lg twitter">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+
+          <a itemprop="sameAs" id="googlePlusIcon" href="https://plus.google.com/u/0/109620033642136833195" class="network-icon" target="_blank">
+            <span class="fa-stack fa-lg google-plus">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
             </span>
           </a>
         </div>
@@ -100,7 +114,9 @@
 
     var github = document.getElementById('githubIcon');
     var linkedin = document.getElementById('linkedinIcon');
+    var facebook = document.getElementById('facebookIcon');
     var twitter = document.getElementById('twitterIcon');
+    var googlePlus = document.getElementById('googlePlusIcon');
 
     function track(category, action, label) {
       ga('send', 'event', category, action, label);
@@ -114,8 +130,16 @@
       track('Social Network', 'click', 'LinkedIn');
     });
 
+    facebook.addEventListener('click', function(event) {
+      track('Social Network', 'click', 'Facebook');
+    });
+
     twitter.addEventListener('click', function(event) {
       track('Social Network', 'click', 'Twitter');
+    });
+
+    googlePlus.addEventListener('click', function(event) {
+      track('Social Network', 'click', 'Google Plus');
     });
   </script>
   <script src="js/index.js"></script>
