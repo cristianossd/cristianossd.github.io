@@ -16,6 +16,10 @@ body {
       border-radius: 100%;
       border: 1px solid #9197A3;
       cursor: pointer; }
+    .profile .photo:hover img {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
   .profile .description {
     text-align: center;
     padding-right: 10px;
