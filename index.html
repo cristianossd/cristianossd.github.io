@@ -1,150 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="google-site-verification" content="Vacp0VVqvDPnLBc-5BuaLTZPN6u8-gunivmj6OVJ1ng" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Full Stack Developer and Computer Science Undergraduate Student at
-                                    Federal University of Bahia. Salvador, Bahia, Brazil">
-
-  <meta property="fb:app_id" content="884142265018361">
-  <meta property="og:title" content="Cristiano Santos">
-  <meta property="og:type" content="profile">
-  <meta property="og:url" content="http://cristianossd.github.io">
-  <meta property="og:image" content="http://cristianossd.github.io/img/me.jpg">
-  <meta
-    property="og:description"
-    content="Software Engineer at DrFarm - Master's degree, Computer Science, Federal University of Bahia"
-  />
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:site_name" content="My personal page">
-
-  <title>Cristiano Santos</title>
-
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/foundation.min.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-</head>
-<body>
-  <div class="row">
-    <div class="small-8 small-centered medium-4 medium-centered large-4 large-centered columns">
-      <div class="profile" itemscope itemtype="http://schema.org/Person">
-        <div class="photo">
-          <img src="img/me.jpeg" alt="" itemprop="image">
-        </div>
-        <div class="description">
-          <span class="name" itemprop="name">Cristiano Santos</span>
-
-          <p>
-            <span class="job" itemprop="jobTitle">Software Engineer</span><br>
-            Master's degree, Computer Science, Federal University of Bahia<br>
-          </p>
-
-          <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="addressLocality">Salvador</span>, 
-            <span itemprop="addressRegion">Bahia</span>, 
-            <span itemprop="addressCountry">Brazil</span>
-          </div>
-
-          <a id="email" href="mailto:cristianossd@gmail.com" class="email" itemprop="email">cristianossd@gmail.com</a>
-        </div>
-        <div class="social-network">
-          <a itemprop="sameAs" id="githubIcon" href="https://github.com/cristianossd" class="network-icon" target="_blank">
-            <span class="fa-stack fa-lg github">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-
-          <a itemprop="sameAs" id="linkedinIcon" href="https://br.linkedin.com/in/cristiano-santos-882b2585" class="network-icon" target="_blank">
-            <span class="fa-stack fa-lg linkedin">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-
-          <a itemprop="sameAs" id="facebookIcon" href="https://fb.com/cristianossd" class="network-icon" target="_blank">
-            <span class="fa-stack fa-lg facebook">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-
-          <a itemprop="sameAs" id="twitterIcon" href="https://twitter.com/cristianossd1" class="network-icon" target="_blank">
-            <span class="fa-stack fa-lg twitter">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-
-          <a itemprop="sameAs" id="googlePlusIcon" href="https://plus.google.com/u/0/109620033642136833195" class="network-icon" target="_blank">
-            <span class="fa-stack fa-lg google-plus">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '884142265018361',
-        xfbml      : true,
-        version    : 'v2.5'
-      });
-    };
-
-    (function(d, s, id){
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) {return;}
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-    ga('create', 'UA-71953931-1', 'auto');
-    ga('send', 'pageview');
-
-    var github = document.getElementById('githubIcon');
-    var linkedin = document.getElementById('linkedinIcon');
-    var facebook = document.getElementById('facebookIcon');
-    var twitter = document.getElementById('twitterIcon');
-    var googlePlus = document.getElementById('googlePlusIcon');
-
-    function track(category, action, label) {
-      ga('send', 'event', category, action, label);
-    }
-
-    github.addEventListener('click', function(event) {
-      track('Social Network', 'click', 'Github');
-    });
-
-    linkedin.addEventListener('click', function(event) {
-      track('Social Network', 'click', 'LinkedIn');
-    });
-
-    facebook.addEventListener('click', function(event) {
-      track('Social Network', 'click', 'Facebook');
-    });
-
-    twitter.addEventListener('click', function(event) {
-      track('Social Network', 'click', 'Twitter');
-    });
-
-    googlePlus.addEventListener('click', function(event) {
-      track('Social Network', 'click', 'Google Plus');
-    });
-  </script>
-  <script src="js/index.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Software engineer very experienced with the product development process, systems design, and technical leadership" />
+        <meta name="author" content="Cristiano Santos" />
+        <title>Cristiano Santos</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#!">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mailto:cristianossd@gmail.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <section>
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-6">
+                        <h1 class="mt-5">Cristiano Santos</h1>
+                        <p>Software Engineer & Master student, Federal University of Bahia (UFBA)</p>
+                        <p>I’m a software engineer very experienced with the product development process, systems design, and technical leadership. Excites me to work on big and complex challenges where engineering and product problems could intersect. It’s enjoyable to work with cross-functional teams, specifying useful and lovely products while focusing on code quality and good software engineering practices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
