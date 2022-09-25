@@ -1,0 +1,11 @@
+--2022-09-25 12:09:53--  https://cristiano.page/assets/favicon.png
+Resolving cristiano.page (cristiano.page)... 185.199.109.153, 185.199.108.153, 185.199.110.153, ...
+Connecting to cristiano.page (cristiano.page)|185.199.109.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 557 [image/png]
+Saving to: ‘favicon.png’
+
+     0K                                                       100% 22,1M=0s
+
+2022-09-25 12:09:54 (22,1 MB/s) - ‘favicon.png’ saved [557/557]
+
